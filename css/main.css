@@ -1,0 +1,65 @@
+html{
+  margin: auto;
+}
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(254, 254, 226)
+}
+
+.heading {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+.title {
+  width: 150px;
+}
+
+.description {
+  width: 500px;
+  text-indent: 100px;
+}
+
+form {
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  margin: 30px auto;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid lightskyblue;
+}
+
+th {
+  font-size: 20px;
+}
+
+th,td {
+  border: none;
+  height: 30px;
+  padding: 2px;
+}
+
+.delete {
+  text-align: right;
+}
+
+.delete a {
+  color: green;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.delete a:hover {
+  color: lightgreen
+}
